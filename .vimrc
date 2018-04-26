@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set number  "enable line numbering
 syntax enable
 let g:gruvbox_contrast_dark='hard'
@@ -12,5 +13,5 @@ if &term =~ '256color'
   set t_ut=
 endif
 "inoremap jk <esc> "to easily get out of insert mode
-execute pathogen#infect()
 filetype plugin indent on
+set runtimepath^=~/.vim/bundle/ctrlp.vim
