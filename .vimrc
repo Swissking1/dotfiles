@@ -15,3 +15,4 @@ endif
 "inoremap jk <esc> "to easily get out of insert mode
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+

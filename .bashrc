@@ -115,4 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+TERM=screen-256color #tmux vim wasn't working
 cd /mnt/c/Users/Rod\ Bayliss\ III
