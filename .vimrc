@@ -1,4 +1,11 @@
 execute pathogen#infect()
+set nocompatible "required for vundle
+filetype off "vundle required 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'severin-lemaignan/vim-minimap'
+call vundle#end()	"vundle required
+filetype plugin indent on "vundle required
 set number  "enable line numbering
 syntax enable
 let g:gruvbox_contrast_dark='hard'
@@ -12,7 +19,5 @@ if &term =~ '256color'
   " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
-"inoremap jk <esc> "to easily get out of insert mode
-filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
+autocmd vimenter * NERDTree "Auto open NERDTree
