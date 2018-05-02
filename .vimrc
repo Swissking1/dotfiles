@@ -21,3 +21,4 @@ if &term =~ '256color'
 endif
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 autocmd vimenter * NERDTree "Auto open NERDTree
+set hls "enable search highlighting

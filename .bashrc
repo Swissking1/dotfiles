@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 TERM=screen-256color #tmux vim wasn't working
 cd /mnt/c/Users/Rod\ Bayliss\ III
+eval $(ssh-agent)
+export DISPLAY=localhost:0.0 #6.012 final project is dumb
