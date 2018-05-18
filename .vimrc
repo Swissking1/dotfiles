@@ -6,6 +6,8 @@ call vundle#begin()
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'lervag/vimtex' "Make sure to run :PLuginInstall!!!
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()	"vundle required
 filetype plugin indent on "vundle required
 
