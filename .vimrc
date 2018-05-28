@@ -1,4 +1,3 @@
-execute pathogen#infect()
 set nocompatible "required for vundle
 filetype off "vundle required 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -8,6 +7,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'lervag/vimtex' "Make sure to run :PLuginInstall!!!
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()	"vundle required
 filetype plugin indent on "vundle required
 
