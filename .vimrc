@@ -8,6 +8,7 @@ Plugin 'lervag/vimtex' "Make sure to run :PLuginInstall!!!
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
 call vundle#end()	"vundle required
 filetype plugin indent on "vundle required
 
