@@ -8,7 +8,9 @@ Plugin 'lervag/vimtex' "Make sure to run :PLuginInstall!!!
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'vim-airline/vim-airline'
+Plugin 'kien/ctrlp.vim'
 call vundle#end()	"vundle required
 filetype plugin indent on "vundle required
 
@@ -34,3 +36,5 @@ set ignorecase "ignore case when searching j
 
 let g:airline_theme='gruvbox'
 
+
+set backspace=indent,eol,start
