@@ -38,3 +38,7 @@ let g:airline_theme='gruvbox'
 
 
 set backspace=indent,eol,start
+
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
