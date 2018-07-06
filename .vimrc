@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'vim-airline/vim-airline'
 Plugin 'kien/ctrlp.vim'
+Plugin 'w0rp/ale'
 call vundle#end()	"vundle required
 filetype plugin indent on "vundle required
 
@@ -30,7 +31,7 @@ if &term =~ '256color'
 endif
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-autocmd vimenter * NERDTree "Auto open NERDTree
+"autocmd vimenter * NERDTree "Auto open NERDTree
 set hls "enable search highlighting
 set ignorecase "ignore case when searching j
 
@@ -42,3 +43,5 @@ set backspace=indent,eol,start
 set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
+
+set clipboard=unnamed
