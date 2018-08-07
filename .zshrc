@@ -95,8 +95,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-LS_COLORS="ow=01;90:di=01;90"
-export LS_COLORS
+
+export LS_COLORS="no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:ex=00;35:ow=01;90"
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 unalias ls
