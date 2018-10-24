@@ -105,5 +105,6 @@ setopt no_hist_verify
 export EDITOR=vim
 export VISUAL=vim
 export DISPLAY=:0
+hash -d  rod_home=/mnt/c/Users/Rod\ Bayliss\ III
 cd /mnt/c/Users/Rod\ Bayliss\ III
 SPACESHIP_DIR_TRUNC_REPO=false
