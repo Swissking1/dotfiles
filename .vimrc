@@ -45,3 +45,7 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 
 set clipboard=unnamed
+
+"Spell checker
+set spelllang=en
+set spell
